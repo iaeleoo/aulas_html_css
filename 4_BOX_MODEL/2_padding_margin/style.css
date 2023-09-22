@@ -7,12 +7,20 @@ div {
     padding-right: 20px;
     padding-bottom: 30px;
     padding-left: 40px;
-
+    /*shorthad*/
+    /*1 valor = mesmo valor pra todos os 4 lados*/
     padding: 20px;
 
+    /*2 valores = primeiro  top e bottom / segundo  rigth e left*/
     padding: 30px 50px;
 
+    /*3 valores = 1 top / 2 right / 3 bottom */
     padding: 20px 50px 5px;
 
-    
+    /*4 valores = 1 top / 2 right / 3 bottom / 4 left */
+    padding: 30px 50px 70px 90px;
+
+    /* propriedades extras */
+    padding-inline: 40px; /*padding na horizontal */
+    padding-block: 20px; /* padding na vertical */
 }
